@@ -27,7 +27,7 @@ def generateCheckSum(data):
 # Get the 0-2047 BIP-39 standard wordlist 
 def getWordList():
     cwd = os.getcwd()
-    with open(cwd + "/wordlist/eng.txt", "r") as f:
+    with open(cwd + "/eng.txt", "r") as f:
         wordlist = [w.strip() for w in f.readlines()]
     
     return wordlist
