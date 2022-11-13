@@ -1,6 +1,6 @@
 # BIP39_Seed_Converter
 
-Learn to manually create 12 worded BIP39 seed phrases using an initial entropy without using any third party libraries in Python.
+Learn to manually create 12 worded BIP39 seed phrases using an initial entropy without using any third party libraries in Python. Also contains code to convert seed phrase into private key.
 
 Following are the steps taken:
 
